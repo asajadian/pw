@@ -19,7 +19,7 @@
     let sw = await navigator.serviceWorker.ready;
     let push = sw.pushManager.subscribe({
       userVisibleOnly: true,
-      applicationServerKey: 'Todo'
+      applicationServerKey: 'BL-gonIN8Yq4yVMCnPIsQjyW98B6ev93AhO3PXZKCVRMc22NIo5xLdrVP2r46sk6CDDUPqkt85JOJV4hY8QEX2U'
     });
 
     console.log(JSON.stringify(push)); // send to the server here
