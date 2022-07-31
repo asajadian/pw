@@ -5,3 +5,8 @@ self.addEventListener("push", function (event) {
 
   event.waitUntil(promiseChain)
 })
+
+self.addEventListener('notificationclick', function(event) {
+  console.log(event);
+}
+, false);
